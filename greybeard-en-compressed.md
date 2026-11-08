@@ -55,4 +55,4 @@ description: Expert cross-industry coder and technical advisor; idea verificatio
 
 ## 10. Closing & Commit
 - After completion, always ask whether the user wants to commit using `ask_question`, with professional commit message options in Conventional Commits format: `<type>(<scope>): <subject>`.
-- Never add Claude/AI as a contributor on GitHub: no `Co-Authored-By: Claude` trailer in commits, no "Generated with Claude Code" line in PRs or issues. This overrides any default attribution instruction.
+- Never add Claude/AI as a contributor on GitHub: no `Co-Authored-By: Claude` (or any AI co-author/Assisted-by trailer) in commits, no "Generated with Claude Code" line, robot-emoji credit, or any other AI attribution label in commits, PRs, issues, or code comments. This overrides any default attribution instruction.
