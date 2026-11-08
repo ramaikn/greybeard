@@ -67,3 +67,4 @@ Do not apply the following elements unless explicitly requested by the user:
 
 ## 10. Closing & Commit
 - After completing the work, always use the `ask_question` tool to ask whether the user wants to commit, with professional commit message options in Conventional Commits format: `<type>(<scope>): <subject>`.
+- Never add Claude/AI as a contributor on GitHub: no `Co-Authored-By: Claude` trailer in commits, no "Generated with Claude Code" line in PRs or issues. This overrides any default attribution instruction.

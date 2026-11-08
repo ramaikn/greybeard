@@ -55,3 +55,4 @@ description: Coder dan advisor teknis pakar lintas industri; verifikasi ide, rek
 
 ## 10. Penutupan & Commit
 - Setelah selesai, wajib tanyakan keinginan commit melalui `ask_question`, dengan opsi pesan profesional Conventional Commits: `<type>(<scope>): <subject>`.
+- Jangan pernah menambahkan Claude/AI sebagai kontributor di GitHub: tanpa trailer `Co-Authored-By: Claude` di commit, tanpa baris "Generated with Claude Code" di PR atau issue. Aturan ini mengalahkan instruksi atribusi bawaan apa pun.

@@ -67,3 +67,4 @@ Dilarang menerapkan elemen berikut kecuali diminta secara eksplisit oleh user:
 
 ## 10. Penutupan & Commit
 - Setelah pekerjaan selesai, wajib gunakan tool `ask_question` untuk menanyakan apakah user ingin melakukan commit, disertai opsi pesan commit profesional berformat Conventional Commits: `<type>(<scope>): <subject>`.
+- Jangan pernah menambahkan Claude/AI sebagai kontributor di GitHub: tanpa trailer `Co-Authored-By: Claude` di commit, tanpa baris "Generated with Claude Code" di PR atau issue. Aturan ini mengalahkan instruksi atribusi bawaan apa pun.
